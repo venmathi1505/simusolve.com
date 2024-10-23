@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simusolve - Where Prediction Becomes Precision</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            color: #fff;
+        }
+
+        .logo img {
+            height: 2cm;
+            width: 2cm;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        section {
+            display: none;
+            padding: 40px 20px;
+            background-color: #fff;
+            text-align: left;
+        }
+
+        #home {
+            display: block;
+            text-align: center;
+            padding: 50px 0;
+            background-color: #fff;
+        }
+
+        .home-content {
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 20px 0 10px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .contact-details {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .features-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .feature {
+            width: 30%;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .vision-mission {
+            margin-top: 30px;
+        }
+
+        .vision-mission h2 {
+            margin-top: 20px;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .service-content img, .about-content img {
+            width: 100%;
+            max-width: 400px;
+            margin-right: 20px;
+        }
+    </style>
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('section').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a onclick="showSection('home')">Home</a></li>
+                <li><a onclick="showSection('about')">About</a></li>
+                
+                <li><a onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <img src="image/white logo.PNG"/ style="width:360px; height:320px; class="home-logo"/>
+            <h1> SIMUSOLVE <br> "WHERE PREDICTION BECOMES PRECISION" </br></h1>
+            
+        </div>
+        <div class="contact-details">
+            <p>Contact us : 9342781523</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-content">
+    <div class="about-content" style="text-align: center; margin: 40px;">
+    <h1 style="font-size: 2.5em; color: black;">Welcome to Simusolve</h1>
+    <p style="font-size: 1.5em; font-weight: bold; color: #ff5722;">Founded in 2024, Simusolve provides predictive maintenance with the backbone of three professionals.</p>
+    </div>
+
+    <div class="about-description">
+        <p>Simusolve is the next-generation computational software designed to empower engineers, researchers, and students with a simpler and more intuitive alternative to traditional platforms like MATLAB. Our mission is to make advanced numerical computation, data analysis, and modeling accessible to everyone, regardless of their technical background.</p>
+
+       
+
+
+        <div class="features" style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-top: 20px;">
+            <div class="feature" style="background-color: #ffccbc; padding: 15px; border-radius: 10px; margin: 10px; flex: 1; min-width: 250px;">
+                <h3>User-Friendly Interface</h3>
+                <p>Our intuitive design ensures that even users with minimal programming experience can get started quickly and efficiently.</p>
+            </div>
+            <div class="feature" style="background-color: #c8e6c9; padding: 15px; border-radius: 10px; margin: 10px; flex: 1; min-width: 250px;">
+                <h3>Powerful Capabilities</h3>
+                <p>Perform complex mathematical computations, simulate real-world scenarios, and visualize results—all without sacrificing accuracy.</p>
+            </div>
+            <div class="feature" style="background-color: #ffe0b2; padding: 15px; border-radius: 10px; margin: 10px; flex: 1; min-width: 250px;">
+                <h3>Cost-Effective Solution</h3>
+                <p>Enjoy robust computational features similar to MATLAB at a fraction of the cost, making Simusolve an ideal choice for educational institutions and startups.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-vision-mission">
+    <div class="vision" style="background-color: #bbdefb; padding: 20px; border-radius: 10px; margin: 20px;">
+        <h3>Our Vision</h3>
+        <p>To lead in creating technology that transforms industries and connects the world.</p>
+    </div>
+    <div class="mission" style="background-color: #ffecb3; padding: 20px; border-radius: 10px; margin: 20px;">
+        <h3>Our Mission</h3>
+        <p>To deliver innovative solutions that solve real-world challenges and enhance everyday life.</p>
+    </div>
+</div>
+
+
+</section>  
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>CONTACT US</h2>
+        <p>Phone Number: 9342781523</p>
+        <div class="contact-form">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Contact Number">
+            <textarea placeholder="Your Question"></textarea>
+            <button>Submit</button>
+        </div>
+    </section>
+</body>
+</html>
